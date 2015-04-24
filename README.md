@@ -1,14 +1,12 @@
 # Real Time Chat App using Node, Express, and Socket.io
 
-<h2>Instructions</2>
-
-<h2>You need these dependencies to build the App</2>
+<h2>You need these tools to build the App</2>
 <ul>
-<li>Node.js</li>
-<li>Express</li>
-<li>Socket.io</li>
+<li><a href="https://nodejs.org">Node.js</a></li>
+<li><a href="http://expressjs.com/">Express</a></li>
+<li><a href="http://socket.io/">Socket.io</a></li>
 </ul>
-<h3> Screenshot </h3>
+<h3> Screenshot of the App</h3>
 <img src="img/demo.png">
 
 <h4>First let’s create a package.json </h4>
@@ -75,6 +73,10 @@ var socket = io();
 
 ```
 
+<h3> Follow me on twitter or visit my blog<h3>
+<ul>
+  <li><a href="https://twitter.com/tizolj"> tizolj</a></li>
+  <li><a href="http://josetizol.com/"> josetizol.com</a></li>
+</ul>
 
-    
 
