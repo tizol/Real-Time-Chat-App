@@ -1,13 +1,30 @@
 # Real Time Chat App using Node, Express, and Socket.io
-
-<h2>You need these tools to build the App</2>
+<h2>You will need these tools to build the App</2>
 <ul>
-<li><a href="https://nodejs.org">Node.js</a></li>
-<li><a href="http://expressjs.com/">Express</a></li>
-<li><a href="http://socket.io/">Socket.io</a></li>
+  <li><a href="http://brew.sh/">Hombrew</a></li>
+  <li><a href="https://nodejs.org">Node.js</a></li>
+  <li><a href="http://expressjs.com/">Express</a></li>
+  <li><a href="http://socket.io/">Socket.io</a></li>
 </ul>
 <h3> Screenshot of the App</h3>
 <img src="img/demo.png">
+
+<h3> First let's install <a href="http://brew.sh/">Hombrew</a> <h3>
+<p>Homebrew is a package manager for OS X</p>
+<h4>Step 1</h4>
+<p>Type "Terminal" on your Spotlight Search and paste this command</p>
+
+    ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+<h4>Step 2</h4>
+<p>Check that hombrew is installed by typing this on your terminal</p> 
+    $ brew doctor
+
+<h4>Step 3</h4>
+<p>Check that Node is installed by typing this on your terminal</p>
+
+    $ node --version 
+
 
 <h4>First let’s create a package.json </h4>
 
