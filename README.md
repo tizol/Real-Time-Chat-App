@@ -17,13 +17,13 @@
     ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
 <h4>Step 2</h4>
-<p>Check that hombrew is installed by typing this on your terminal</p> 
+<p>Check that hombrew is installed by typing this on your terminal</p>
     $ brew doctor
 
 <h4>Step 3</h4>
 <p>Check that Node is installed by typing this on your terminal</p>
 
-    $ node --version 
+    $ node --version
 
 
 <h4>First let’s create a package.json </h4>
@@ -36,7 +36,7 @@ package.json
   "author": "tizol",
   "description": "Real time chat using Node and socket.io",
   "dependencies": {
-  
+
   }
 }
 ```
@@ -53,7 +53,7 @@ var app = require('express')();
 var http = require('http').Server(app);
 var io = require('socket.io')(http);
 
-// Make an HTTP Request
+// Handle an HTTP Request
 // Hyper Text Transfer Protocol
 // respond by sending a file (e.i html)
 app.get('/', function(req, res){
@@ -72,7 +72,7 @@ io.on('connection', function(socket){
 
 // Your App is listening on port 3000
 http.listen(3000, function(){
-  console.log( 'listen on: localhost:3000' );
+  console.log( 'listen on: http://localhost:3000' );
 });
 ```
 
@@ -95,5 +95,3 @@ var socket = io();
   <li><a href="https://twitter.com/tizolj"> tizolj</a></li>
   <li><a href="http://josetizol.com/"> josetizol.com</a></li>
 </ul>
-
-
